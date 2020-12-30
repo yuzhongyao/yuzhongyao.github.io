@@ -8,14 +8,6 @@ main{
     width: 100%;
 
 }
-/*main{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-gap: 5px;
-        grid-auto-rows: minmax(auto,auto);
-        width: 100%;
-}
-*/
 
 #filters{
     position: -webkit-sticky; /* Safari */
