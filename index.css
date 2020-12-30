@@ -40,8 +40,8 @@ p{
     padding-left: 1em;
 }
 img{
-    height: 1fr;
-    width: 1fr;
+    height: 300px;
+    width: 300px;
     object-fit: scale-down;
 }
 
