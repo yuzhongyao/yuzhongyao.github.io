@@ -13,7 +13,7 @@ main{
     grid-auto-rows: minmax(auto,auto);
     width: 100%;
 }
-}
+
 @media (min-width: 800px){
 main{
     display: grid;
