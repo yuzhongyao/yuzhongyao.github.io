@@ -67,7 +67,6 @@ nav{
 }
 nav li{
     display: inline-block;
-    text-align: right;
     color: white;
     width: 100%;
 }
