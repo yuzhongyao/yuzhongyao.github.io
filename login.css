@@ -75,6 +75,7 @@ nav li{
     display: inline;
     text-align: right;
     color: white;
+    margin: auto;
 }
 ul{
     padding: 14px 16px;
