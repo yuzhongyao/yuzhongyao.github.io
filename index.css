@@ -16,6 +16,7 @@ main{
         width: 100%;
 }
 */
+
 #filters{
     position: -webkit-sticky; /* Safari */
     position: sticky;
