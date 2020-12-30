@@ -3,6 +3,7 @@ main{
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
     grid-auto-rows: minmax(auto,auto);
+    width: 100%;
 }
 #filters{
     position: -webkit-sticky; /* Safari */
