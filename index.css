@@ -1,6 +1,6 @@
 main{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 20vw);
     grid-gap: 5px;
     grid-auto-rows: minmax(auto,auto);
 }
