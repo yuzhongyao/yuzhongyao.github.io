@@ -1,0 +1,88 @@
+.login_field {
+    align-items: center;
+    display: grid;
+    margin: 0.4em;
+    font-size: 3em;
+    outline: none;
+
+}
+a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+h1{
+    font-size: 4em;
+    margin: 0.5em;
+}
+.login_field::placeholder{
+    color: slategray;
+}
+
+
+html{
+    height: auto;
+}
+
+body{
+    /*background-color: #403C3C;*/
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    background-color: white;
+    justify-items: center;
+    align-items: center;
+    border-radius: 10px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+    margin-top: 1em;
+
+}
+#language,#English,#Chinese{
+    display: inline;
+    padding: 1em;
+
+}
+form{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+#login_form_submit{
+    border-radius: 5px;
+    font-size: 3em;
+    cursor: pointer;
+    color: white;
+    background-color: #3a3a3a;
+    margin-bottom: 0.25em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+nav{
+    width: 100%;
+    
+}
+nav li{
+    display: inline;
+    text-align: right;
+    color: white;
+}
+ul{
+    padding: 14px 16px;
+    background-color: #333;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+
+}
