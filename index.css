@@ -1,7 +1,7 @@
 main{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 1em;
+    grid-gap: 5px;
     grid-auto-rows: minmax(auto,auto);
 }
 #filters{
@@ -46,7 +46,7 @@ img{
 
 h1,h2{
     text-align: center;
-    font-size: 4em;
+    font-size: large;
     
 }
 nav{
