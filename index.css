@@ -59,8 +59,14 @@ a{
     cursor: pointer;
 
 }
+html{
+    margin: 0%;
+    padding: 0%;
+}
 body{
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
 }
 a:hover {
     background-color: #ddd;
@@ -103,10 +109,12 @@ li{
     color: white;
     
 }
+
 ul{
     padding: 14px 16px;
     background-color: #333;
-    width: 100%;
     margin: 3px;
+    width: 97vw;
     display: inline-block;
+    overflow: hidden;
 }
