@@ -1,6 +1,6 @@
 main{
     display: grid;
-    grid-template-columns: repeat(5, 20vw);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 5px;
     grid-auto-rows: minmax(auto,auto);
 }
@@ -30,6 +30,7 @@ main > div{
 }
 div{
     display: inline-block;
+    
 
 }
 p{
@@ -39,8 +40,8 @@ p{
     padding-left: 1em;
 }
 img{
-    height: 100vw;
-    width: 100vw;
+    height: 1fr;
+    width: 1fr;
     object-fit: scale-down;
 }
 
