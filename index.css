@@ -75,4 +75,5 @@ ul{
     background-color: #333;
     width: 100%;
     margin: 3px;
+    display: inline-block;
 }
