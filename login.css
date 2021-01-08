@@ -50,6 +50,7 @@ form{
     display: grid;
     justify-items: center;
     align-items: center;
+    width: auto;
 }
 #login_form_submit{
     border-radius: 5px;
