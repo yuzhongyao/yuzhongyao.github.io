@@ -39,7 +39,7 @@ main {
     border-radius: 10px;
     border: 5px solid black;
     margin-top: 1em;
-
+    width: auto;
 }
 #language,#English,#Chinese{
     display: inline;
@@ -50,7 +50,6 @@ form{
     display: grid;
     justify-items: center;
     align-items: center;
-    width: auto;
 }
 #login_form_submit{
     border-radius: 5px;
